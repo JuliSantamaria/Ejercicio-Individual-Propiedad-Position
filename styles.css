@@ -1,0 +1,38 @@
+#menuPrincipal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+#menuPrincipal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+#menuPrincipal li {
+    display: inline;
+}
+
+#menuPrincipal a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#menuPrincipal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    z-index: 1000; 
+}
